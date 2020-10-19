@@ -77,7 +77,7 @@ selfBotVars = {};
     <span id="ticking" style="font-size: 12pt;"></span>
 </div>
 <div class="featureContainer">
-    <input type="checkbox" id="contains"> If message's <select id="containsSelect"><option value="a">content</option><option value="b">author ID</option></select> has <input type="text" id="query" placeholder="something"> then <select id="containsReactOrSelect"><option value="a">react</option><option value="b">send</option><option value="c">delete it</option> <input type="text" id="reactOrSend" placeholder="some suff"></select>.<br>
+    <input type="checkbox" id="contains"> If message's <select id="containsSelect"><option value="a">content</option><option value="b">author ID</option></select> contains <input type="text" id="query" placeholder="something"> then <select id="containsReactOrSelect"><option value="a">react</option><option value="b">send</option><option value="c">delete it</option> <input type="text" id="reactOrSend" placeholder="some suff"></select>.<br>
 </div>
 <div class="featureContainer">
     <input type="checkbox" id="script"> Automatically type the following text where messages are separated with an enter. (<a href="">?</a>) <br>
