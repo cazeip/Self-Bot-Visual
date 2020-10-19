@@ -12,7 +12,7 @@ Starting everything
 You can use [this](http://discord.com/app) link which will automatically open it in this browser.
 
 1. Navigate in the channel you want to target.
-*This version of the selfbot (v1.0) doesn't support multiple channels. I will be adding this in the future.* 😣
+*This version of the selfbot (v1.1) doesn't support multiple channels. I will be adding this in the future.* 😣
 
 1. Open the developer tools by pressing `F12` on your keyboard.
 
@@ -44,7 +44,7 @@ After you are done completing this feature, click on the checkbox on it's left a
 
 Send the following text
 ===
-This feature allows you to automatically send a text where each line will represent a message. As of v1.0, you cant send messages that contain multiple lines. Empty lines will be skipped.
+This feature allows you to automatically send a text where each line will represent a message. As of v1.1, you cant send messages that contain multiple lines. Empty lines will be skipped.
 After you are done completing this feature, click on the checkbox on it's left and click on "Update changes". If a text was already being sent line by line, you will be asked if you want to stop either the old or the new text.
 
 Send message to user with this ID
