@@ -60,12 +60,12 @@ selfBotVars = {};
 <h1>Required info:</h1>
 <div class="commonInputsContainer">
     <div class="half">
-        Token (<a href="https://github.com/victornpb/deleteDiscordMessages/blob/master/help/authToken.md">?</a>)<br>
+        Token <a target="_blank" title="Need some help? Click on this link to open a documentation!" href="https://github.com/cazeip/Self-Bot-Visual#starting-everything">?</a><br>
         <input type="password" placeholder="Token" id="authToken">
         <button id="getToken">Fill</button><br>
     </div>
     <div class="half">
-        Server and Channel IDs (<a href="https://github.com/victornpb/deleteDiscordMessages/blob/master/help/channelId.md">?</a>)<br>
+        Server and Channel IDs <a target="_blank" title="Need some help? Click on this link to open a documentation!" href="https://github.com/cazeip/Self-Bot-Visual#starting-everything">?</a><br>
         <input id="guildId" type="text" placeholder="Guild ID" priv><br>
         <input id="channelId" type="text" placeholder="Channel ID" priv>
         <button id="getGuildAndChannel">Fill</button><br>
@@ -73,18 +73,18 @@ selfBotVars = {};
 </div>
 <h2>Features:</h2>
 <div class="featureContainer">
-    <input type="checkbox" id="messageDelay"> Send <input type="text" id="msgContent" placeholder="some text"> every <input type="number" id="delay" placeholder="number of"> seconds.<br>
+    <input type="checkbox" id="messageDelay"> Send <input type="text" id="msgContent" placeholder="some text"> every <input type="number" id="delay" placeholder="number of"> seconds. <a target="_blank" title="Need some help? Click on this link to open a documentation!" href="https://github.com/cazeip/Self-Bot-Visual#send--every--seconds">?</a><br>
     <span id="ticking" style="font-size: 12pt;"></span>
 </div>
 <div class="featureContainer">
-    <input type="checkbox" id="contains"> If message's <select id="containsSelect"><option value="a">content</option><option value="b">author ID</option></select> contains <input type="text" id="query" placeholder="something"> then <select id="containsReactOrSelect"><option value="a">react</option><option value="b">send</option><option value="c">delete it</option> <input type="text" id="reactOrSend" placeholder="some suff"></select>.<br>
+    <input type="checkbox" id="contains"> If message's <select id="containsSelect"><option value="a">content</option><option value="b">author ID</option></select> contains <input type="text" id="query" placeholder="something"> then <select id="containsReactOrSelect"><option value="a">react</option><option value="b">send</option><option value="c">delete it</option> <input type="text" id="reactOrSend" placeholder="some suff"></select>. <a target="_blank" title="Need some help? Click on this link to open a documentation!" href="https://github.com/cazeip/Self-Bot-Visual#if--then-">?</a><br>
 </div>
 <div class="featureContainer">
-    <input type="checkbox" id="script"> Automatically type the following text where messages are separated with an enter. (<a href="">?</a>) <br>
+    <input type="checkbox" id="script"> Automatically type the following text where messages are separated with an enter. <a target="_blank" title="Need some help? Click on this link to open a documentation!" href="https://github.com/cazeip/Self-Bot-Visual#send-the-following-text">?</a><br>
     <textarea style="resize: vertical;width: 100%;" placeholder="Enter the text here (Bee movie for example)"></textarea>
 </div>
 <div class="featureContainer">
-    <input type="checkbox" id="sendDM"> Send <input type="text" id="DMcontent" placeholder="private message"> to the user with <input type="text" id="dmID" placeholder="this user ID">. (<a href="">?</a>)<br>
+    <input type="checkbox" id="sendDM"> Send <input type="text" id="DMcontent" placeholder="private message"> to the user with <input type="text" id="dmID" placeholder="this user ID">. <a target="_blank" title="Need some help? Click on this link to open a documentation!" href="https://github.com/cazeip/Self-Bot-Visual#send-message-to-user-with-this-id">?</a><br>
 </div>
 <button id="start">Update changes</button>
 </body>
