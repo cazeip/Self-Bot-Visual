@@ -3,6 +3,8 @@ A Discord Self-Bot that works client sided and doesn't need any installation.
 
 This is a self-bot, which is **SEVERELY** punished by Discord's ToS, I am not responsible for any damage you may have caused with my programm.
 
+![The tool](https://raw.githubusercontent.com/cazeip/Self-Bot-Visual/main/screenshot.png)
+
 Starting everything
 ===
 
